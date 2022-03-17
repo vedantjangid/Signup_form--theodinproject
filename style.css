@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+:root {
+  --color: #414141;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100vh;
+  margin: 0;
+  color: white;
+}
+
+.left-half {
+  width: 45%;
+  background-image: url("bg_left.jpg");
+  background-size: contain;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  font-family: sans-serif;
+  color: var(--color);
+  font-size: 32px;
+  height: 4.5em;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40%;
+  padding-right: 5%;
+  background-color: rgb(0, 0, 0, 0.25);
+}
+
+img {
+  height: 175px;
+}
+
+.right-container {
+  width: 50%;
+  background: linear-gradient(var(--color), #000000);
+  padding: 5%;
+}
+
+.greeting {
+  font-weight: bold;
+  padding-top: 5em;
+  font-size: x-large;
+}
+
+form {
+  display: flex;
+  flex-direction: row nowrap;
+}
+
+fieldset {
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: column wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  gap: 1em;
+  margin-left: -1em;
+}
+
+input {
+  background-color: rgb(95, 95, 95);
+  border: 2px solid rgb(73, 73, 73);
+  border-radius: 5px;
+}
+
+button {
+  background-color: var(--color);
+  color: black;
+  font-weight: 700;
+  font-size: 1.2em;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 10px 40px;
+  margin: 40px 0;
+  cursor: pointer;
+}
+button:hover {
+  color: var(--color);
+  background-color: black;
+}
+
+.login {
+  font-size: large;
+}
+.login:hover {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color);
+}
+
+img {
+  height: 4em;
+  width: 4em;
+}
+.git {
+  position: absolute;
+  right: 10px;
+  height: 40px;
+  width: 40px;
+  top: 10px;
+}
